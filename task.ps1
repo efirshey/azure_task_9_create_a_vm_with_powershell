@@ -46,3 +46,4 @@ New-AzVm `
     -SecurityGroupName $networkSecurityGroupName `
     -OpenPorts 22,8080 `
     -SshKeyName $sshKeyName `
+    -Credential $cred
